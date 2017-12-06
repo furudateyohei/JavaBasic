@@ -10,8 +10,8 @@ public class PTra08_03 {
 	public static void main(String[] args) {
 
 		// ★ 0～100のランダムな値を取得して、変数numberに代入してください
-		int number = new java.util.Random().nextInt(100);
-
+		int number = new java.util.Random().nextInt(101);
+		System.out.println("選択された値" + number);
 		// ★ 変数resultを宣言し、メソッドisEvenNumberを（変数number）で呼び出した結果を代入してください
 		boolean result = isEvenNumber(number);
 

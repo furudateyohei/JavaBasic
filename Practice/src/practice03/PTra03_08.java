@@ -35,31 +35,13 @@ public class PTra03_08 {
 		 *
 		 * ※ プログラムは何行書いても良いです
 		 */
-		
-		int a=150;
-		int b=160;
-		int c=200;
-		
-		
-		
-		switch (num) {
-		
-		
-		case 1:
-			System.out.println(money-a);
-		break;
-		
-		case 2:
-			System.out.println(money-b);
-		break;
-		
-		case 3:
-			System.out.println(money-c);
-		break;	
+		if(num == 1) {
+			money = money - 150;
+		}else if(num == 2) {
+			money = money - 160;
+		}else if(num == 3) {
+			money = money - 200;
 		}
-		
-		
-		System.out.println(money);
-		
+		System.out.println("所持金" + money);
 	}
 }

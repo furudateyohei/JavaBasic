@@ -17,12 +17,12 @@ public class PTra13_03 {
 
 	public static void main(String[] args) {
 		// ★ common.Slimeクラスをインスンタンス化してください
-	Slime slime = new Slime();
+		Slime slime = new Slime();
 
 		// ★ common.Slimeインスタンスのnameに"スライム"を設定して下さい
-	slime.setName("スライム");
+		slime.setName("スライム");
 
 		// ★ common.Slimeインスタンスのキャラクター情報を表示してください
-	System.out.println(slime.showParameter());
+		System.out.println(slime.showParameter());
 	}
 }

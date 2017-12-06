@@ -26,7 +26,7 @@ public class PTra10_04 {
 		// ★ usersのサイズ分繰り返す制御構文を記述してください
 		//----------- ループ start
 		for (int i = 0; i < users.length; i++) {
-			System.out.println("##人目の情報を入力します");		/* ##には、カウントを入れてください */
+			System.out.println((i + 1) + "人目の情報を入力します");		/* ##には、カウントを入れてください */
 			System.out.println("ユーザID（数字）、 ユーザ名、メールアドレス、パスワードをカンマ区切りで入力してください");
 
 			// ★ コマンドプロンプトに入力された値を、String型の変数lineに格納してください
@@ -46,11 +46,11 @@ public class PTra10_04 {
 		//----------- ループ end
 
 		// ★ usersに格納されている全てのインスタンスの、フィールドuserId, userNm, mail, passwordを出力してください
-		for (int i = 0; i < users.length; i++) {
-			System.out.println(users[i].userId);
-			System.out.println(users[i].userNm);
-			System.out.println(users[i].mail);
-			System.out.println(users[i].password);
+		for (User us : users){
+			System.out.println(us.userId);
+			System.out.println(us.userNm);
+			System.out.println(us.mail);
+			System.out.println(us.password);
 		}
 	}
 }

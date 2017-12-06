@@ -7,6 +7,7 @@
 package practice16;
 
 public class PTra16_03 {
+	
 	public String toString() {
 		return super.toString() + "\nPTra16_03#toString()の処理"; 
 	}

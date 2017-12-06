@@ -9,7 +9,7 @@ package practice03;
 public class PTra03_01 {
 	public static void main(String[] args) {
 		// ★ int型の変数numを宣言し、70で初期化してください
-int num = 70;
+		int num = 70;
 
 		// ★ 「変数numが70である」という条件式を追加してください
 		if(num==70) {

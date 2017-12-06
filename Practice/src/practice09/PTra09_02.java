@@ -17,8 +17,8 @@ public class PTra09_02 {
 		// ※ Utilはインポートしても良いし、完全限定名で記述しても良いです
 		String[]shuffleArray = Util.shuffleArray(array);
 
-			for(String j:shuffleArray) {
-				System.out.println(j);
+			for(String result : shuffleArray) {
+				System.out.println(result);
 
 
 		// ★ ランダムに並び替えた後の配列を前から順に全て表示してください
